@@ -1,27 +1,60 @@
 .item {
-
+    position: relative;
+    padding: 10px;
+    border: 2px dashed black;
+    background-color: rgb(233, 170, 141);
 }
 
 .title{
-
+    margin-bottom: 10px;
+    font-size: 16px;
+    text-align: center;
+    text-transform: uppercase;
 }
 
-.location{
-
+.desc {
+    margin-bottom: 10px;
+    font-size: 14px;
+    font-weight: 500;
 }
 
-.name{
-
-}
-
-.start{
-
-}
-
-.duration{
-    
+.desc svg{
+    margin-right: 10px;
 }
 
 .status{
-    
+    position: absolute;
+    top: 0;
+    right: 0;
+    transform: translateY(40px);
+    padding: 5px;    
+}
+
+.future {
+    background-color: rgb(72, 255, 0);
+}
+
+.closed {
+    background-color: rgb(255, 0, 0);
+}
+
+
+@media screen and (min-width: 480px) {
+    .title {
+        font-size: 18px;
+    }
+
+        .desc{
+            font-size: 16px;
+        }
+}
+
+@media screen and (min-width: 640px) {
+    .title {
+        font-size: 22px;
+    }
+
+    .desc {
+        font-size: 20px;
+    }
 }

@@ -7,7 +7,7 @@ const EventList = ({events}) => {
     return <ul className={styles.list}>
         {events.map(({ name, title, location, time, status }) =>
                 <EventItem
-                    key={name}
+                    key={title}
                     title={title}
                     location={location}
                     name={name}

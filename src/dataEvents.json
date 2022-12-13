@@ -1,72 +1,72 @@
 [
     {
-        "title":"title",
-        "location":"location",
-        "name":"name",
+        "title":"Course HTML+JS",
+        "location":"Mykolaiv",
+        "name":"Ivan Rozkladay",
         "time":{
-            "start": "start",
-            "finish": "finish"
+            "start": "2022-09-01T16:00:00",
+            "finish": "2022-09-01T18:30:00"
         },
-        "status": true
+        "status": false
     },
     {
-        "title":"title",
-        "location":"location",
-        "name":"name",
+        "title":"React",
+        "location":"Vinnitsa",
+        "name":"Evgen Shaposhnik",
         "time":{
-            "start": "start",
-            "finish": "finish"
+            "start": "2023-07-11T10:00:00",
+            "finish": "2023-07-11T11:00:00"
         },
         "status": true
     },
         {
-        "title":"title",
-        "location":"location",
-        "name":"name",
+        "title":"CSS3 for all tasks",
+        "location":"Kiev",
+        "name":"Galina Spivakova",
         "time":{
-            "start": "start",
-            "finish": "finish"
+            "start": "2022-05-15T13:30:00",
+            "finish": "2022-05-15T18:00:00"
         },
         "status": false
     },
         {
-        "title":"title",
-        "location":"location",
-        "name":"name",
+        "title":"Mobile dev",
+        "location":"Kharkiv",
+        "name":"Pavel Dovbish",
         "time":{
-            "start": "start",
-            "finish": "finish"
+            "start": "2022-12-22T17:00:00",
+            "finish": "2022-12-22T19:00:00"
         },
         "status": true
     },
         {
-        "title":"title",
-        "location":"location",
-        "name":"name",
+        "title":"Team development",
+        "location":"Lviv",
+        "name":"Orest Omelko",
         "time":{
-            "start": "start",
-            "finish": "finish"
-        },
-        "status": false
-    },
-        {
-        "title":"title",
-        "location":"location",
-        "name":"name",
-        "time":{
-            "start": "start",
-            "finish": "finish"
-        },
-        "status": false
-    },
-        {
-        "title":"title",
-        "location":"location",
-        "name":"name",
-        "time":{
-            "start": "start",
-            "finish": "finish"
+            "start": "2023-01-10T12:00:00",
+            "finish": "2023-01-10T16:00:00"
         },
         "status": true
+    },
+        {
+        "title":"Git in projects",
+        "location":"Lviv",
+        "name":"Orest Omelko",
+        "time":{
+            "start": "2023-03-10T12:00:00",
+            "finish": "2023-03-10T14:00:00"
+        },
+        "status": true
+    },
+        {
+        "title":"Frameworks for front end",
+        "location":"Mykolaiv",
+        "name":"Viacheslav Mazi",
+        "time":{
+            "start": "2022-07-13T17:00:00",
+            "finish": "2022-07-13T20:00:00"
+        },
+        "status": false
     }
 ]

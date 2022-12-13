@@ -1,3 +1,28 @@
+/* https: //www.w3schools.com/css/css_grid_container.asp */
+
 .list {
+    display: grid;
+    gap: 20px;
+    grid-template-columns: 320px;
+    justify-content: center;
+}
+
+@media screen and (min-width: 480px){
+    .list{
+        grid-template-columns: 220px 220px;
+    }
     
+}
+
+@media screen and (min-width: 640px) {
+    .list {
+        grid-template-columns: 320px 320px;
+    }
+}
+
+@media screen and (min-width: 1100px) {
+    .list {
+        gap: 30px;
+        grid-template-columns: 320px 320px 320px;
+    }
 }
